@@ -10,7 +10,6 @@ useEffect(()=>{
  if(bookmarkAddress==="bookmarks"){
     setIsBookmarked(true)
  }
- console.log(localStorage.getItem('bookmarkedJobs'))
 },[])
    
   const handleBookmarkClick = (e) => {
